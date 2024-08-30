@@ -9,7 +9,6 @@ function GamePage() {
     const [additionMessage, setAdditionMessage] = useState('');
     const [gameStarted, setGameStarted] = useState(false);
 
-
     const handleStartGame = async () => {
         try {
             const response = await startGame();

@@ -9,7 +9,7 @@ function CustomBox({ children, ...props }) {
             alignItems="center"
             justifyContent="center"
             sx={{ padding: '20px', boxSizing: 'border-box' }}
-            {...props}  // Прокидываем остальные пропсы, такие как `sx` и т.д.
+            {...props}  
         >
             {children}
         </Box>
